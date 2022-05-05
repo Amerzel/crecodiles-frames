@@ -24,7 +24,7 @@ function App() {
         </h3>
         
         <div>
-          <label class="id-input">Croc ID:
+          <label class="id-label">Croc ID:
             <input class="id-input" type="number" name="crecrodile-id" value={id} onChange={(event) => setId(parseInt(event.target.value, 10))} />
           </label>
         </div>
